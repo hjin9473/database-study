@@ -127,7 +127,7 @@ WHERE category = '전자기기' AND stock >= 10;
 -- 가격에 10% 세금을 적용한 최종 가격을 계산해 제품명과 함께 조회하세요.
 
 -- 정답:
-SELECT name, price * 0.9 AS `최종 가격`
+SELECT name, price * 1.1 AS `최종 가격`
 FROM products;
 
 -- 문제 4
